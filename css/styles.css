@@ -1,14 +1,14 @@
 :root{
-    --navyblue: #2E2F42; /* ----------Navy blue */
-    --white: #ffffff; /* --------------------White */
-    --iris: #4D5AE5; /* -------------Iris */
-    --ocean: #404BBF; /* ------------Ocean */
-    --green: #31D0AA; /* ------------------Green */
-    --slate: #434455; /* ----------Slate */
-    --lightslate: #8E8F99; /* --------Light slate */
-    --cornflower: #E7E9FC; /* --------Cornflower */
-    --cloud: #F4F4FD; /* --------------Cloud */
-    --navyblue-modal: #FCFCFC; /* ---------Dairy */ 
+    --navyblue: #2E2F42;
+    --white: #ffffff;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --green: #31D0AA;
+    --slate: #434455;
+    --lightslate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navyblue-modal: #FCFCFC;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 .header-logo{
     text-decoration: none;
-    color: var(--brand-color, #2E2F42);
+    color: var(--navyblue #2E2F42);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -31,7 +31,7 @@ body {
 }
 
 .header-span {
-    color: var(--primary-brand, #4D5AE5);
+    color: var(--iris, #4D5AE5);
 }
 
 .header-item {
@@ -40,7 +40,7 @@ body {
 
 .header-link{
     text-decoration: none;
-    color: var(--brand-color, #2E2F42);
+    color: var(--navyblue #2E2F42);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -54,7 +54,7 @@ body {
 
 .header-address-link{
     text-decoration: none;
-    color: var(--body-text-color, #434455);
+    color: var(--slate, #434455);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -63,7 +63,7 @@ body {
 }
 
 .main-hero{
-    background: var(--brand-color, #2E2F42);
+    background: var(--navyblue #2E2F42);
 }
 
 .main-hero-title{
@@ -78,7 +78,7 @@ body {
 }
 
 .main-hero-btn{
-    background-color: var(--primary-brand, #4D5AE5);
+    background-color: var(--iris, #4D5AE5);
     color: var(--white, #ffffff);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -97,7 +97,7 @@ body {
 }
 
 .main-s-s-title{
-    color: var(--brand-color, #2E2F42);
+    color: var(--navyblue #2E2F42);
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -107,7 +107,7 @@ body {
 }
 
 .mains-s-s-text{
-    color: var(--body-text-color, #434455);
+    color: var(--slate, #434455);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -117,7 +117,7 @@ body {
 }
 
 .main-t-s-title{
-    color: var(--brand-color, #2E2F42);
+    color: var(--navyblue #2E2F42);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -133,11 +133,11 @@ body {
 }
 
 .main-fourth-section{
-    background-color: var(--light-color, #F4F4FD);
+    background-color: var(--cloud, #F4F4FD);
 }
 
 .main-f-s-title{
-    color: var(--brand-color, #2E2F42);
+    color: var(--navyblue #2E2F42);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -154,7 +154,7 @@ body {
 }
 
 .main-team-names{
-    color: var(--brand-color, #2E2F42);
+    color: var(--navyblue #2E2F42);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -165,7 +165,7 @@ body {
 }
 
 .main-f-s-text{
-    color: var(--body-text-color, #434455);
+    color: var(--slate, #434455);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -176,12 +176,12 @@ body {
 }
 
 .footer{
-    background-color: var(--brand-color, #2E2F42);
+    background-color: var(--navyblue #2E2F42);
 }
 
 .footer-link{
     text-decoration: none;
-    color: var(--light-color, #F4F4FD);
+    color: var(--cloud, #F4F4FD);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -192,11 +192,11 @@ body {
 }
 
 .footer-span{
-    color: var(--primary-brand, #4D5AE5);
+    color: var(--iris, #4D5AE5);
 }
 
 .footer-text{
-    color: var(--light-color, #F4F4FD);
+    color: var(--cloud, #F4F4FD);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -212,8 +212,8 @@ body {
 }
 
 .portfolio-btn{
-    background: var(--light-color, #F4F4FD);
-    color: var(--primary-brand, #4D5AE5);
+    background: var(--cloud, #F4F4FD);
+    color: var(--iris, #4D5AE5);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -225,7 +225,7 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: var(--pressed-state, #404BBF);
+    background-color: var(--ocean, #404BBF);
     color: var(--white, #ffffff);
     cursor: pointer;
 }
@@ -235,7 +235,7 @@ body {
 }
 
 .portfolio-i-i-title{
-    color: var(--brand-color, #2E2F42);
+    color: var(--navyblue, #2E2F42);
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -245,7 +245,7 @@ body {
 }
 
 .portfolio-i-i-text{
-    color: var(--body-text-color, #434455);
+    color: var(--slate, #434455);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
