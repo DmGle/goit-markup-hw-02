@@ -9,13 +9,12 @@
     --accent-color: #E7E9FC; /* --------Cornflower */
     --light-color: #F4F4FD; /* --------------Cloud */
     --mobal-background: #FCFCFC; /* ---------Dairy */ 
-    --brand-famyly: Roboto, sans-serif;
 }
 
 body {
     background-color: var(--white, #ffffff);
-    color: var(--brand-color, #2E2F42);
-    font-family: var(--brand-famyly);
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
