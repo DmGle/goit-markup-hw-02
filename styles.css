@@ -13,16 +13,16 @@
 }
 
 body {
-    background-color: var(--white);
-    color: var(--brand-color);
+    background-color: var(--white, #ffffff);
+    color: var(--brand-color, #2E2F42);
     font-family: var(--brand-famyly);
     text-decoration: none;
 }
 
 .header-logo{
     text-decoration: none;
-    color: var(--brand-color);
-    font-family: Raleway;
+    color: var(--brand-color, #2E2F42);
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -32,7 +32,7 @@ body {
 }
 
 .header-span {
-    color: var(--primary-brand);
+    color: var(--primary-brand, #4D5AE5);
 }
 
 .header-item {
@@ -41,8 +41,8 @@ body {
 
 .header-link{
     text-decoration: none;
-    color: var(--brand-color);
-    font-family: Roboto;
+    color: var(--brand-color, #2E2F42);
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -55,8 +55,8 @@ body {
 
 .header-address-link{
     text-decoration: none;
-    color: var(--body-text-color);
-    font-family: Roboto;
+    color: var(--body-text-color, #434455);
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
@@ -64,13 +64,13 @@ body {
 }
 
 .main-hero{
-    background: var(--brand-color);
+    background: var(--brand-color, #2E2F42);
 }
 
 .main-hero-title{
-    color: var(--white);
+    color: var(--white, #ffffff);
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -79,9 +79,9 @@ body {
 }
 
 .main-hero-btn{
-    background-color: var(--primary-brand);
-    color: var(--white);
-    font-family: Roboto;
+    background-color: var(--primary-brand, #4D5AE5);
+    color: var(--white, #ffffff);
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -98,8 +98,8 @@ body {
 }
 
 .main-s-s-title{
-    color: var(--brand-color);
-    font-family: Roboto;
+    color: var(--brand-color, #2E2F42);
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -108,8 +108,8 @@ body {
 }
 
 .mains-s-s-text{
-    color: var(--body-text-color);
-    font-family: Roboto;
+    color: var(--body-text-color, #434455);
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -118,9 +118,9 @@ body {
 }
 
 .main-t-s-title{
-    color: var(--brand-color);
+    color: var(--brand-color, #2E2F42);
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -134,13 +134,13 @@ body {
 }
 
 .main-fourth-section{
-    background-color: var(--light-color);
+    background-color: var(--light-color, #F4F4FD);
 }
 
 .main-f-s-title{
-    color: var(--brand-color);
+    color: var(--brand-color, #2E2F42);
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -151,13 +151,13 @@ body {
 
 .main-f-s-item{
     list-style-type: none;
-    background-color: var(--white);
+    background-color: var(--white, #ffffff);
 }
 
 .main-team-names{
-    color: var(--brand-color);
+    color: var(--brand-color, #2E2F42);
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -166,9 +166,9 @@ body {
 }
 
 .main-f-s-text{
-    color: var(--body-text-color);
+    color: var(--body-text-color, #434455);
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -177,13 +177,13 @@ body {
 }
 
 .footer{
-    background-color: var(--brand-color);
+    background-color: var(--brand-color, #2E2F42);
 }
 
 .footer-link{
     text-decoration: none;
-    color: var(--light-color);
-    font-family: Raleway;
+    color: var(--light-color, #F4F4FD);
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -193,12 +193,12 @@ body {
 }
 
 .footer-span{
-    color: var(--primary-brand);
+    color: var(--primary-brand, #4D5AE5);
 }
 
 .footer-text{
-    color: var(--light-color);
-    font-family: Roboto;
+    color: var(--light-color, #F4F4FD);
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -213,10 +213,10 @@ body {
 }
 
 .portfolio-btn{
-    background: var(--light-color);
-    color: var(--primary-brand);
+    background: var(--light-color, #F4F4FD);
+    color: var(--primary-brand, #4D5AE5);
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -226,8 +226,8 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: var(--pressed-state);
-    color: var(--white);
+    background-color: var(--pressed-state, #404BBF);
+    color: var(--white, #ffffff);
     cursor: pointer;
 }
 
@@ -236,8 +236,8 @@ body {
 }
 
 .portfolio-i-i-title{
-    color: var(--brand-color);
-    font-family: Roboto;
+    color: var(--brand-color, #2E2F42);
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -246,8 +246,8 @@ body {
 }
 
 .portfolio-i-i-text{
-    color: var(--body-text-color);
-    font-family: Roboto;
+    color: var(--body-text-color, #434455);
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
