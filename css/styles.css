@@ -1,14 +1,14 @@
 :root{
-    --brand-color: #2E2F42; /* ----------Navy blue */
+    --navyblue: #2E2F42; /* ----------Navy blue */
     --white: #ffffff; /* --------------------White */
-    --primary-brand: #4D5AE5; /* -------------Iris */
-    --pressed-state: #404BBF; /* ------------Ocean */
-    --success: #31D0AA; /* ------------------Green */
-    --body-text-color: #434455; /* ----------Slate */
-    --subtle-text: #8E8F99; /* --------Light slate */
-    --accent-color: #E7E9FC; /* --------Cornflower */
-    --light-color: #F4F4FD; /* --------------Cloud */
-    --mobal-background: #FCFCFC; /* ---------Dairy */ 
+    --iris: #4D5AE5; /* -------------Iris */
+    --ocean: #404BBF; /* ------------Ocean */
+    --green: #31D0AA; /* ------------------Green */
+    --slate: #434455; /* ----------Slate */
+    --lightslate: #8E8F99; /* --------Light slate */
+    --cornflower: #E7E9FC; /* --------Cornflower */
+    --cloud: #F4F4FD; /* --------------Cloud */
+    --navyblue-modal: #FCFCFC; /* ---------Dairy */ 
 }
 
 body {
