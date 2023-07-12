@@ -34,8 +34,13 @@ body {
     text-decoration: none;
 }
 
+.link:hover,
+.link:focus{
+    color: var(--ocean, #404BBF);
+}
+
 .header-span {
-    color: var(--navyblue #2E2F42);
+    color: var(--navyblue, #2E2F42);
 }
 
 .list{
@@ -48,12 +53,16 @@ body {
 
 .header-link{
     text-decoration: none;
-    color: var(--navyblue #2E2F42);
+    color: var(--navyblue, #2E2F42);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-address{
+    font-style: normal;
 }
 
 .header-address-item {
@@ -71,7 +80,7 @@ body {
 }
 
 .main-hero{
-    background: var(--navyblue #2E2F42);
+    background: var(--navyblue, #2E2F42);
 }
 
 .main-hero-title{
@@ -96,6 +105,11 @@ body {
     letter-spacing: 0.04em;
 }
 
+.main-hero-btn:hover,
+.main-hero-btn:focus{
+    background-color: var(--ocean, #404BBF);
+}
+
 .hidden{
     visibility: hidden;
 }
@@ -105,7 +119,7 @@ body {
 }
 
 .main-s-s-title{
-    color: var(--navyblue #2E2F42);
+    color: var(--navyblue, #2E2F42);
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -125,7 +139,7 @@ body {
 }
 
 .main-t-s-title{
-    color: var(--navyblue #2E2F42);
+    color: var(--navyblue, #2E2F42);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -145,7 +159,7 @@ body {
 }
 
 .main-f-s-title{
-    color: var(--navyblue #2E2F42);
+    color: var(--navyblue, #2E2F42);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
@@ -162,7 +176,7 @@ body {
 }
 
 .main-team-names{
-    color: var(--navyblue #2E2F42);
+    color: var(--navyblue, #2E2F42);
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -184,12 +198,12 @@ body {
 }
 
 .footer{
-    background-color: var(--navyblue #2E2F42);
+    background-color: var(--navyblue, #2E2F42);
 }
 
 .footer-link{
     text-decoration: none;
-    color: var(--cloud, #F4F4FD);
+    color: var(--iris, #4D5AE5);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -200,7 +214,7 @@ body {
 }
 
 .footer-span{
-    color: var(--iris, #4D5AE5);
+    color: var(--cloud, #F4F4FD);
 }
 
 .footer-text{
